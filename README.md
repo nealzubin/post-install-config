@@ -114,6 +114,93 @@ We are going to configure teams next. Teams allow you to pull agents from differ
 
 
 
+<p>
+
+We are going to allow anyone to create tickets
+
+ * Admin Panel -> Settings -> User Settings
+ * uncheck Registration Required: Require registration and login to create tickets 
+
+</p>
+
+
+![image](https://github.com/nealzubin/post-install-config/assets/145185495/1eca9a3d-3b12-4514-8fd2-fc55ff998c4a)
+
+
+
+
+
+
+<p>
+
+Next, we are going to create some agents. Agents are given access to the help desk with the intent to respond and resolve the tickets
+
+ * Admin Panel -> Agents -> Add New
+ * Set password just for this lab, in practice it is not recommended to keep one password for all agents
+ * Go to access tab > select primary department
+ * Go to teams tab > add to level II support
+ * click Create
+
+</p>
+
+
+![image](https://github.com/nealzubin/post-install-config/assets/145185495/be728842-6e52-4257-b7ca-fd72744bf62e)
+![image](https://github.com/nealzubin/post-install-config/assets/145185495/74dd4e66-8edb-420e-906b-0e81082196d9)
+![image](https://github.com/nealzubin/post-install-config/assets/145185495/ef61ae02-8ba7-4aba-a0f9-3f2da1bfc2e6)
+
+
+
+
+
+<p>
+
+Next, we are going to create users. We will need to switch to the agent panel to do this. 
+
+ * Agent Panel -> Users -> Add User
+ * Set password just for this lab, in practice it is not recommended to keep one password for all agents
+ * click Create
+
+</p>
+
+
+![image](https://github.com/nealzubin/post-install-config/assets/145185495/f1162065-f3d7-4fd8-93ed-20a8c19783cf)
+![image](https://github.com/nealzubin/post-install-config/assets/145185495/8b218812-122c-4e2e-8ed5-6e771c536bc2)
+![image](https://github.com/nealzubin/post-install-config/assets/145185495/669c515c-0865-457b-abf9-93174208d1c3)
+
+
+
+
+
+<p>
+
+We will now configure SLAs. The purpose of the SLA is to provide a length of time in which tickets are expected to be resolved. We will need to go back to the admin panel for this.  
+
+ * Admin Panel -> Manage -> SLA
+ * Sev-A (1 hour, 24/7)
+ * Sev-B (4 hours, 24/7)
+ * Sev-C (8 hours, business hours)
+
+</p>
+
+
+
+![image](https://github.com/nealzubin/post-install-config/assets/145185495/6fc6b16e-0c4e-41f3-8960-0da7bea23d94)
+![image](https://github.com/nealzubin/post-install-config/assets/145185495/6342af64-3626-43a8-ab0c-d658c5935068)
+![image](https://github.com/nealzubin/post-install-config/assets/145185495/f3bc24b9-a21c-4fdc-afca-750456687cfb)
+![image](https://github.com/nealzubin/post-install-config/assets/145185495/aabd6022-7ffd-4d31-b32f-c0d16b4c8c68)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
