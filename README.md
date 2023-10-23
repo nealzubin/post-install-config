@@ -194,14 +194,30 @@ We will now configure SLAs. The purpose of the SLA is to provide a length of tim
 
 
 
+<p>
+
+We will now configure Help Topics. Help topics help streamline the end-user experience. 
+
+ * Admin Panel -> Manage -> Help Topics
+ * Business Critical Outage
+ * Personal Computer Issues
+ * Equipment Request
+ * Password Reset
+   
+</p>
+
+
+![image](https://github.com/nealzubin/post-install-config/assets/145185495/68851e31-47ff-4418-bcd4-96bf2b8d9db0)
+![image](https://github.com/nealzubin/post-install-config/assets/145185495/a1252e85-b062-4bff-b0d0-557e33c89e0b)
 
 
 
 
+<p>
 
-
-
-
+We are at the end of this lab. We will use what we configured in this lab in the next section. 
+   
+</p>
 
 
 
